@@ -21,6 +21,7 @@ class App extends Component {
     this.setState({
       list: this.state.list.concat(this.state.name)
     });
+    this.state.name = ""
   }
   
 
